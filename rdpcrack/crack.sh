@@ -1,4 +1,4 @@
-sudo apt update && sudo apt install build-essential freerdp2-dev -y;
+sudo apt update && sudo apt install build-essential freerdp2-dev masscan -y;
 git clone https://github.com/vanhauser-thc/thc-hydra.git;
 cd thc-hydra;
 ./configure && make -j8 && sudo make install;
