@@ -2,6 +2,7 @@ sudo apt update && sudo apt install tor proxychains build-essential cmake freerd
 git clone https://github.com/FreeRDP/FreeRDP.git;
 cd FreeRDP;
 cmake CMakeLists.txt && make -j8 && sudo make install;
+cd ..;
 sudo pkill tor;
 tor &
 git clone https://github.com/vanhauser-thc/thc-hydra.git;
