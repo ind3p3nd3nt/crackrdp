@@ -1,9 +1,5 @@
 # TESTED ON KALI LINUX
-sudo apt update && sudo apt install tor proxychains build-essential cmake masscan libpcap-dev -y;
-git clone https://github.com/FreeRDP/FreeRDP.git;
-cd FreeRDP;
-cmake CMakeLists.txt && make -j8 && sudo make install;
-cd ..;
+sudo apt update && sudo apt install tor proxychains build-essential freerdp2-x11 cmake masscan libpcap-dev -y;
 sudo pkill tor;
 tor &
 git clone https://github.com/vanhauser-thc/thc-hydra.git;
