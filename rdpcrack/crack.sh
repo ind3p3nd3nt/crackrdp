@@ -1,3 +1,4 @@
+# TESTED ON KALI LINUX
 sudo apt update && sudo apt install tor proxychains build-essential cmake masscan libpcap-dev -y;
 git clone https://github.com/FreeRDP/FreeRDP.git;
 cd FreeRDP;
