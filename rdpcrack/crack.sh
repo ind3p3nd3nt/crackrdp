@@ -5,6 +5,7 @@ cd FreeRDP;
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub org.freedesktop.Platform//19.08
 flatpak install flathub org.freedesktop.Platform.ffmpeg-full//19.08
+ldconfig;
 cmake .;
 make -j8;
 make install;
