@@ -1,5 +1,5 @@
 # TESTED ON KALI LINUX
-sudo apt update && sudo apt install tor proxychains build-essential freerdp2-x11 cmake masscan libpcap-dev -y;
+sudo apt update && sudo apt install tor proxychains build-essential freerdp2-dev cmake masscan libpcap-dev -y;
 sudo pkill tor;
 tor &
 git clone https://github.com/vanhauser-thc/thc-hydra.git;
