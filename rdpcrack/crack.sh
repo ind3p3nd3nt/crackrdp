@@ -1,5 +1,11 @@
 # TESTED ON KALI LINUX
-apt update && apt install build-essential freerdp2-dev cmake masscan libpcap-dev libssl-dev -y;
+apt update && apt install build-essential zlib1g-dev cmake masscan libpcap-dev libssl-dev -y;
+git clone https://github.com/FreeRDP/FreeRDP.git;
+cd FreeRDP;
+cmake .;
+make -j8;
+make install;
+cd ..;
 git clone https://github.com/vanhauser-thc/thc-hydra.git;
 cd thc-hydra;
 ./configure && make -j8 && make install;
