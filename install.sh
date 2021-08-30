@@ -13,6 +13,6 @@ git clone https://github.com/vanhauser-thc/thc-hydra.git;
 cd thc-hydra;
 ./configure && make -j8 && make install;
 cd ..;
-cp -r rdpcrack/crackrdp /bin/crackrdp;
-chmod +x /bin/crackrdp;
-echo "installation done now type in terminal: crackrdp 59.0.0.0-59.255.255.255"
+cd rdpcrack;
+chmod +x crackrdp;
+echo "installation done now type in terminal: ./crackrdp 59.0.0.0-59.255.255.255"
