@@ -15,4 +15,5 @@ cd thc-hydra;
 cd ..;
 cd rdpcrack;
 chmod +x crackrdp;
+ldconfig;
 echo "installation done now type in terminal: ./crackrdp 59.0.0.0-59.255.255.255"
