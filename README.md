@@ -11,3 +11,5 @@
 ## Active logins:
 
 #### cat hydra.log | grep login:
+
+## Warning: scanning a lots of IPs will freeze your shell out of memory, so dont scan too many subnets.
