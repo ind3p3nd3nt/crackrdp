@@ -13,6 +13,8 @@ cp -r ./hydra /usr/bin/hydra;
 cd ..;
 cd rdpcrack;
 chmod +x crackrdp;
+echo "cat hydra.log | grep login:;" >listlogins.sh
+chmod +x listlogins.sh;
 ldconfig;
 echo "installation done now type in terminal:";
 echo "cd rdpcrack";
