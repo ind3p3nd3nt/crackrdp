@@ -5,7 +5,7 @@
 ## installation
 #### sh install.sh
 ## usage
-#### cd rdpcrack && ./crackrdp 59.0.0.0-59.255.255.255
+#### cd rdpcrack && ./crackrdp 24.100.0.0-24.100.255.255
 ## credentials
 #### They are stored in directory rdpcrack/ user and pass files
 ## Active logins:
