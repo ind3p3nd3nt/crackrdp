@@ -14,5 +14,6 @@ cd ..;
 cd rdpcrack;
 chmod +x crackrdp;
 ldconfig;
-echo "installation done now type in terminal:"
-echo "./crackrdp 24.100.0.0-24.100.255.255"
+echo "installation done now type in terminal:";
+echo "cd rdpcrack";
+echo "./crackrdp 24.100.0.0-24.100.255.255";
